@@ -1,4 +1,4 @@
-package main;
+package main.state;
 
 import main.Atendimento;
 
