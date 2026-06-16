@@ -1,12 +1,11 @@
 # Complementação da Prova
 > Entrega "Complementação da Prova" da disciplina de "Arquitetura e Projeto de Software" no curso de "Engenharia de Software". [Repositório temporário]
 
----
 ## Referências
 
 [Refactoring Guru](https://refactoring.guru/design-patterns/)\
 [Repositório do professor](https://github.com/marcoaparaujo/padroes-projeto)\
-[1ª Prova](https://github.com/viniciusmachadovianna/prova1-arqProj-ViniciusMachado)\
+[1ª Prova](https://github.com/viniciusmachadovianna/prova1-arqProj-ViniciusMachado)
 
 ---
 ## Diagrama
@@ -16,7 +15,7 @@
 ---
 ## Comando
 
-### **Sistema de Atendimento de Clínica Veterinária**
+**Sistema de Atendimento de Clínica Veterinária**
 
 > Uma clínica veterinária deseja um sistema simples para registrar atendimentos de animais. Cada atendimento possui tutor, animal, serviço solicitado, valor base e situação atual.
 
