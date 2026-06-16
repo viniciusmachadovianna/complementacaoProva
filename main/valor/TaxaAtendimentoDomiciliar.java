@@ -1,4 +1,4 @@
-package main;
+package main.valor;
 
 import main.Atendimento;
 
