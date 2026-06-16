@@ -4,8 +4,9 @@
 ---
 ## Referências
 
-[Refactoring Guru](https://refactoring.guru/design-patterns/)
-[Repositório do professor](https://github.com/marcoaparaujo/padroes-projeto)
+[Refactoring Guru](https://refactoring.guru/design-patterns/)\
+[Repositório do professor](https://github.com/marcoaparaujo/padroes-projeto)\
+[1ª Prova](https://github.com/viniciusmachadovianna/prova1-arqProj-ViniciusMachado)\
 
 ---
 ## Diagrama
@@ -17,7 +18,7 @@
 
 ### **Sistema de Atendimento de Clínica Veterinária**
 
-Uma clínica veterinária deseja um sistema simples para registrar atendimentos de animais. Cada atendimento possui tutor, animal, serviço solicitado, valor base e situação atual.
+> Uma clínica veterinária deseja um sistema simples para registrar atendimentos de animais. Cada atendimento possui tutor, animal, serviço solicitado, valor base e situação atual.
 
 O sistema deve ser flexível para permitir novas regras e comportamentos sem grandes alterações no código existente.
 
@@ -37,7 +38,7 @@ Outras classes podem ser criadas conforme a solução proposta.
 #### Código-fonte
 Implemente em Java os seguintes comportamentos:
 
-* Situação do atendimento
+##### Situação do atendimento
 
 O atendimento pode estar em uma das seguintes situações:
 
@@ -55,7 +56,7 @@ Exemplos:
 - Um atendimento Finalizado não pode ser cancelado.
 
 
-* Avisos automáticos
+##### Avisos automáticos
 
 Sempre que a situação do atendimento mudar, algumas partes devem ser avisadas automaticamente.
 
@@ -66,7 +67,7 @@ Exemplos:
 - A recepção deve ser avisada quando o atendimento for finalizado.
 - A solução deve permitir adicionar novos interessados sem modificar diretamente a classe Atendimento.
 
-* Acréscimos e descontos
+##### Acréscimos e descontos
 
 O valor final do atendimento pode sofrer alterações por regras opcionais:
 
@@ -83,4 +84,3 @@ Crie os casos de teste, demonstrando:
 - Tentativa de mudança inválida;
 - Envio automático de aviso;
 - Cálculo do valor final com mais de uma regra aplicada.
-
